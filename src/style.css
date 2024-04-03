@@ -23,6 +23,8 @@ body {
     color: orange;
     align-items: center;
     justify-content: space-between;
+    font-size: bold;
+
 
 }
 
@@ -76,16 +78,23 @@ font-size: 1em;
 
 }
 
-.menu-card {
+.menu-card, .about-card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     padding-left: 15%;
     margin-right: 20em;
     padding-bottom: 5%;
-    background-color: rgba(255, 166, 0, 0.246);
-    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    background-color: rgba(255, 166, 0, 0.087);
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94, 104, 121, 0.551);
 
 }
+{
+.menu-header, .contact-header 
 
-.menu-header {
+};
+
+{
 
     font-size: 4em;
 }
@@ -100,4 +109,34 @@ font-size: 1em;
 .menu-list>li {
 
     font-size: 1em;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact-form label {
+    margin-bottom: 0.5em;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 0.0625em solid #ccc;
+    border-radius: 0.25em;
+}
+
+.contact-form button {
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
 }
