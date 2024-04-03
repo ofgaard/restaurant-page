@@ -42,11 +42,35 @@ font-size: 1em;
 }
 
 #content {
-    margin: 8em auto 2em;
+    margin: 7em 10em;
     display: flex;
     flex-direction: column;
     color: black;
-    width: 40%;
     padding: 3em;
-    border: 1px solid black;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    gap: 10em;
+}
+
+.hero {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.cto-button {
+    width: 15em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 2em;
+    margin-left: 4em;
+    border-radius: 8px;
+    border: none;
+    background-color: orange;
+    color: white;
+
 }
